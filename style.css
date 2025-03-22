@@ -1,20 +1,22 @@
 html { 
     font-family: Roboto 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header,
 .footer {
     background-color: #1F2937;
-    font-size: 18px;
     font-weight: 500;
     color: #E5E7EB;
-    padding: 20px;
+    padding: 0px 150px 100px;
 }
 
-.header-logo {
-    font-size: 24px;
+.hov:hover {
+    color: rgb(240, 97, 8);
 }
-
 
 .link-1 {
     margin-left: auto;   
@@ -22,21 +24,23 @@ html {
 
 .topmenu,
 .webinfo {
-    padding: 5px 200px 100px;
+    padding: 0px 10px;
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
 }
 
+.webinfo {
+    gap: 100px;
+}
 .text {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     flex: 1;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
 }
 
 .image {
@@ -49,7 +53,7 @@ html {
 }
 
 .title {
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 900;
     color: #F9FAF8;
     
