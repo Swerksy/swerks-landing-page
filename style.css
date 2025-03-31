@@ -11,7 +11,7 @@ html {
     background-color: #1F2937;
     font-weight: 500;
     color: #E5E7EB;
-    padding: 0px 150px 100px;
+    padding: 0px 250px 100px;
 }
 
 .hov:hover {
@@ -71,7 +71,7 @@ html {
 }
 
 .randinfo {
-    padding: 40px 200px 100px;
+    padding: 40px 400px 100px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -113,7 +113,7 @@ html {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 40px 200px 100px;
+    padding: 40px 400px 100px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -139,7 +139,7 @@ html {
     border-radius: 10px;
     color: #E5E7EB;
     margin: 100px 200px;
-    padding: 60px 150px;
+    padding: 60px 200px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -158,6 +158,7 @@ html {
 }
 .footer {
     display: flex;
-    
+    padding: 50px;
     justify-content: center;
+    align-items: center;
 }
