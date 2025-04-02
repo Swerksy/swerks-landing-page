@@ -1,9 +1,7 @@
 html { 
-    font-family: Roboto 'Times New Roman', Times, serif;
+    font-family: Roboto, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     font-size: 20px;
-    padding: 0px;
-    margin: 0px;
 }
 
 .header,
@@ -87,10 +85,7 @@ html {
     gap: 25px;
 }
 
-.image-a, 
-.image-b,
-.image-c,
-.image-d {
+.images div {
     display: flex;
     flex-flow: column  nowrap;
     justify-content: space-between;
